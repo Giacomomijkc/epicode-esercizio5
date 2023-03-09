@@ -49,3 +49,13 @@ Applicando font-size al div dentro .container, tutti gli span al suo interno ere
 .container div {
 font-size:1rem;
 }
+
+//esercizio 2//
+Il tuo compito e creare una scacchiera.
+
+IMPORTANTE! Completa prima gli esercizi, seguendo le indicazioni una per una, e poi prova a completare anche questo progetto.
+
+Indicazioni:
+Quando il puntatore scorre sopra una qualsiasi cella, il colore della cella dovrebbe diventare rosso.
+La scacchiera deve essere posizionata al centro della pagina.
+
