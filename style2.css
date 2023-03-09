@@ -1,0 +1,234 @@
+body{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 60px;
+ }
+
+
+.box {
+   border: solid 1px black;
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+}
+
+.row1{
+  font-size: 0;
+}
+
+.row2{
+    font-size: 0;
+}
+
+.row3{
+    font-size: 0;
+}
+
+.row4{
+    font-size: 0;
+}
+
+.row5{
+    font-size: 0;
+}
+
+.row6{
+    font-size: 0;
+}
+
+.row7{
+    font-size: 0;
+}
+
+.row8{
+    font-size: 0;
+}
+
+.row1>div:nth-child(even){
+    background-color: black;
+ }
+
+.row1>div:nth-child(odd){
+    background-color: tan;
+}
+
+.row2>div:nth-child(odd){
+    background-color: black;
+}
+
+.row2>div:nth-child(even){
+    background-color: tan;
+}
+
+.row3>div:nth-child(even){
+    background-color: black;
+}
+
+.row3>div:nth-child(odd){
+    background-color: tan;
+}
+
+.row4>div:nth-child(odd){
+    background-color: black;
+}
+
+.row4>div:nth-child(even){
+    background-color: tan;
+}
+
+.row5>div:nth-child(even){
+    background-color: black;
+}
+
+.row5>div:nth-child(odd){
+    background-color: tan;
+}
+
+.row6>div:nth-child(odd){
+    background-color: black;
+}
+
+.row6>div:nth-child(even){
+    background-color: tan;
+}
+
+.row7>div:nth-child(even){
+    background-color: black;
+}
+
+.row7>div:nth-child(odd){
+    background-color: tan;
+}
+
+.row8>div:nth-child(odd){
+    background-color: black;
+}
+
+.row8>div:nth-child(even){
+    background-color: tan;
+}
+
+.row1 div {
+    font-size:1rem;
+    position: relative;
+}
+
+.row2 div {
+    font-size:1rem;
+    position: relative;
+}
+
+.row3 div {
+    font-size:1rem;
+    position: relative;
+}
+
+.row4 div {
+    font-size:1rem;
+    position: relative;
+}
+
+.row5 div {
+    font-size:1rem;
+    position: relative;
+}
+
+.row6 div {
+    font-size:1rem;
+    position: relative;
+}
+
+.row7 div {
+    font-size:1rem;
+    position: relative;
+}
+
+.row8 div {
+    font-size:1rem;
+    position: relative;
+}
+
+.word{
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    transform: translateX(-60%);
+}
+
+.wordbottom{
+    position: absolute;
+    top: +50px;
+    right: 10px;
+    transform: translateX(-60%);
+}
+
+.numsx{
+    position: absolute;
+    left: -20px;
+    transform: translateY(50%);
+}
+
+.numdx{
+    position: absolute;
+    right: -20px;
+    transform: translateY(50%);
+}
+
+.row1>.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.row2>.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.row3>.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.row4>.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.row5>.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.row6>.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.row7>.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.row8>.box:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
